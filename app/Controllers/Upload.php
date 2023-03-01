@@ -107,6 +107,7 @@ class Upload extends ResourceController
             $data_error['name'] = $this->validation->getError('name');
             // $this->session->setFlashdata($data_error);
             
+            
         } else {
 
 
@@ -146,7 +147,7 @@ class Upload extends ResourceController
                         echo 'Ada'; 
                     }
 
-                    $this->resize($source, $dest, $width, $height); 
+                    $this->resize($source, $dest, $width, $height);
                 }
 
                 //this->resize->source->dest->width->height 
@@ -158,7 +159,7 @@ class Upload extends ResourceController
 
        
 
-//   if (! $this->validate($validationRule)) {
+//    if (! $this->validate($validationRule)) {
 //     // Jika validasi tidak terpenuhi, tampilkan pesan kesalahan saja
 //     $response = [
 //         'status'  => 400,
@@ -173,6 +174,8 @@ class Upload extends ResourceController
 //         'data'    => $result        
 //     ];
 // }
+
+echo "hai";
 
 
         
@@ -193,7 +196,7 @@ class Upload extends ResourceController
            
             $image = \Config\Services::image()
                 ->withFile($source)
-                ->fit($width, $height, 'center') 
+                ->fit($width, $height, 'center')   
                 ->save($dest);
         } catch (CodeIgniter\Images\Exceptions\ImageException $e) {
             echo $e->getMessage();
