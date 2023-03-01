@@ -1,0 +1,123 @@
+CRITICAL - 2023-02-17 07:45:38 --> File not found: "hcm-imageserver/public/uploads/1676619938.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('hcm-imageserver/public/uploads/1676619938.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('hcm-imageserver/public/uploads/1676619938.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('hcm-imageserver/public/uploads/1676619938.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('hcm-imageserver/public/uploads/1676619938.jpg', 'hcm-imageserver/public/resize/1011.id/harvest/80x60-1676619938.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 07:47:26 --> File not found: "hcm-imageserver/public/uploads/1676620046.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('hcm-imageserver/public/uploads/1676620046.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('hcm-imageserver/public/uploads/1676620046.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('hcm-imageserver/public/uploads/1676620046.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('hcm-imageserver/public/uploads/1676620046.jpg', 'hcm-imageserver/public/resize/1011.id/harvest/80x60-1676620046.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 07:59:49 --> File not found: "uploads/1676620790.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/1676620790.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('uploads/1676620790.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('uploads/1676620790.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('uploads/1676620790.jpg', 'resize/1011.id/harvest/80x60-1676620790.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:00:54 --> File not found: "hcm-imageserver/public/uploads/1676620855.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('hcm-imageserver/public/uploads/1676620855.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('hcm-imageserver/public/uploads/1676620855.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('hcm-imageserver/public/uploads/1676620855.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('hcm-imageserver/public/uploads/1676620855.jpg', 'hcm-imageserver/public/resize/1011.id/harvest/80x60-1676620855.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:14:07 --> File not found: "uploads/1676621648.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/1676621648.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('uploads/1676621648.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('uploads/1676621648.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('uploads/1676621648.jpg', 'resize/1011.id/harvest/80x60-1676621648.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:22:44 --> mkdir(): Not a directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Not a directory', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 176)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(176): mkdir('\'D:
+mpp\\htdocs\\hcm-imageserver\\\'public/uploads/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('\'D:
+mpp\\htdocs\\hcm-imageserver\\\'public/uploads/')
+ 4 APPPATH\Controllers\Upload.php(48): CodeIgniter\HTTP\Files\UploadedFile->move('\'D:
+mpp\\htdocs\\hcm-imageserver\\\'public/uploads/', '1676622165.jpg')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:24:00 --> File not found: "uploads/1676622240.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/1676622240.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('uploads/1676622240.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('uploads/1676622240.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('uploads/1676622240.jpg', 'resize/1011.id/harvest/80x60-1676622240.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:26:01 --> File not found: "hcm-imageserver/public/uploads/1676622361.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('hcm-imageserver/public/uploads/1676622361.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('hcm-imageserver/public/uploads/1676622361.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('hcm-imageserver/public/uploads/1676622361.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('hcm-imageserver/public/uploads/1676622361.jpg', 'hcm-imageserver/public/resize/1011.id/harvest/80x60-1676622361.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:31:55 --> File not found: "\hcm-imageserver/public/uploads/1676622715.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('\\hcm-imageserver/public/uploads/1676622715.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('\\hcm-imageserver/public/uploads/1676622715.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('\\hcm-imageserver/public/uploads/1676622715.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('\\hcm-imageserver/public/uploads/1676622715.jpg', '\\hcm-imageserver/public/resize/1011.id/harvest/80x60-1676622715.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:33:06 --> File not found: "public/uploads/1676622787.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/uploads/1676622787.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('public/uploads/1676622787.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('public/uploads/1676622787.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('public/uploads/1676622787.jpg', 'public/resize/1011.id/harvest/80x60-1676622787.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:33:51 --> File not found: "uploads/1676622831.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/1676622831.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('uploads/1676622831.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('uploads/1676622831.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('uploads/1676622831.jpg', 'resize/1011.id/harvest/80x60-1676622831.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-17 08:49:45 --> File not found: "uploads/1676623785.jpg"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/1676623785.jpg')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('uploads/1676623785.jpg', true)
+ 3 APPPATH\Controllers\Upload.php(105): CodeIgniter\Images\Handlers\BaseHandler->withFile('uploads/1676623785.jpg')
+ 4 APPPATH\Controllers\Upload.php(82): App\Controllers\Upload->resize('uploads/1676623785.jpg', 'resize/1011.id/harvest/80x60-1676623785.jpg', '80', '60')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

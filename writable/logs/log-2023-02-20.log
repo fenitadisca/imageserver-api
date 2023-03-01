@@ -1,0 +1,256 @@
+CRITICAL - 2023-02-20 02:42:52 --> array_keys(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Upload.php on line 26.
+ 1 APPPATH\Controllers\Upload.php(26): array_keys('{"original":{"width":"80","height":"60"},"medium":{"width":"78","height":"700"},"small":{"width":"900","height":"480"}}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 02:44:09 --> array_keys(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Upload.php on line 26.
+ 1 APPPATH\Controllers\Upload.php(26): array_keys('{"original":{"width":"80","height":"60"},"medium":{"width":"78","height":"700"},"small":{"width":"900","height":"480"}}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 02:56:43 --> array_keys(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Upload.php on line 26.
+ 1 APPPATH\Controllers\Upload.php(26): array_keys('{"original":{"width":"80","height":"60"},"medium":{"width":"78","height":"700"},"small":{"width":"900","height":"480"}}')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:04:03 --> Illegal offset type
+in APPPATH\Controllers\Upload.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:07:55 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Upload.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:12:30 --> Array to string conversion
+in APPPATH\Controllers\Upload.php on line 38.
+ 1 APPPATH\Controllers\Upload.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Upload.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:25:01 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Upload.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:25:40 --> Array to string conversion
+in APPPATH\Controllers\Upload.php on line 36.
+ 1 APPPATH\Controllers\Upload.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Upload.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:26:06 --> Array to string conversion
+in APPPATH\Controllers\Upload.php on line 36.
+ 1 APPPATH\Controllers\Upload.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Upload.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:26:07 --> Array to string conversion
+in APPPATH\Controllers\Upload.php on line 36.
+ 1 APPPATH\Controllers\Upload.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Upload.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 03:27:16 --> Illegal offset type
+in APPPATH\Controllers\Upload.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:03:17 --> print_r() expects at least 1 argument, 0 given
+in APPPATH\Controllers\Upload.php on line 46.
+ 1 APPPATH\Controllers\Upload.php(46): print_r()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:47:22 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:48:34 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:48:58 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:49:09 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:49:11 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:49:47 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:50:20 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:50:39 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:51:11 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:51:21 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:52:08 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:52:35 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:54:03 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:54:49 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:55:27 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:55:43 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:56:33 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 04:56:36 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 05:12:26 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 05:12:34 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 05:12:39 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 05:12:45 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 06:47:48 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 07:19:42 --> Undefined variable $errors
+in APPPATH\Controllers\Upload.php on line 138.
+ 1 APPPATH\Controllers\Upload.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'APPPATH\\Controllers\\Upload.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 07:21:28 --> Undefined variable $error
+in APPPATH\Controllers\Upload.php on line 138.
+ 1 APPPATH\Controllers\Upload.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH\\Controllers\\Upload.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 11:05:00 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 11:05:28 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 11:06:27 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-20 11:06:35 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

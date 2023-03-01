@@ -1,0 +1,42 @@
+CRITICAL - 2023-02-24 03:39:32 --> Undefined variable $data_error
+in APPPATH\Controllers\Upload.php on line 149.
+ 1 APPPATH\Controllers\Upload.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_error', 'APPPATH\\Controllers\\Upload.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 03:58:11 --> Undefined property: App\Controllers\Upload::$validation
+in APPPATH\Controllers\Upload.php on line 96.
+ 1 APPPATH\Controllers\Upload.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Upload::$validation', 'APPPATH\\Controllers\\Upload.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 03:58:31 --> Undefined property: App\Controllers\Upload::$validation
+in APPPATH\Controllers\Upload.php on line 96.
+ 1 APPPATH\Controllers\Upload.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Upload::$validation', 'APPPATH\\Controllers\\Upload.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 03:58:45 --> Undefined property: App\Controllers\Upload::$validation
+in APPPATH\Controllers\Upload.php on line 96.
+ 1 APPPATH\Controllers\Upload.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Upload::$validation', 'APPPATH\\Controllers\\Upload.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 03:59:50 --> Undefined property: App\Controllers\Upload::$validation
+in APPPATH\Controllers\Upload.php on line 96.
+ 1 APPPATH\Controllers\Upload.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Upload::$validation', 'APPPATH\\Controllers\\Upload.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-24 04:01:01 --> Undefined property: App\Controllers\Upload::$validation
+in APPPATH\Controllers\Upload.php on line 96.
+ 1 APPPATH\Controllers\Upload.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Upload::$validation', 'APPPATH\\Controllers\\Upload.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
