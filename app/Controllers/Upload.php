@@ -175,7 +175,7 @@ class Upload extends ResourceController
 //     ];
 // }
 
-echo "hai";
+
 
 
         
