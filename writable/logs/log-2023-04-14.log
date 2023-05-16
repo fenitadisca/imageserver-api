@@ -1,0 +1,18 @@
+CRITICAL - 2023-04-14 07:19:45 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 07:19:48 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 07:43:49 --> Call to a member function getName() on null
+in APPPATH\Controllers\Upload.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
